@@ -3,7 +3,7 @@ int main()
 {
    int n, t, sum = 0, remainder;
 
-   printf("Enter an integer\n");
+   printf("Enter an int: \n");
    scanf("%d", &n);
 
    t = n;
@@ -15,7 +15,7 @@ int main()
       t         = t / 10;
    }
 
-   printf("sum of digits of %d is %d\n", n, sum);
+   printf("sum of digits of %d is %d.\n", n, sum);
 
    return 0;
 }
