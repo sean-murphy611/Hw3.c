@@ -15,7 +15,7 @@ int main()
       t         = t / 10;
    }
 
-   printf("Sum of digits of %d is %d\n", n, sum);
+   printf("sum of digits of %d is %d\n", n, sum);
 
    return 0;
 }
